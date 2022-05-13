@@ -32,11 +32,33 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+        //60프레임일때 : left + 프레임 속도 *0.016
+        //30프레임일때 : left + 프레임 속도 * 0.03
+        Debug.Log(Time.deltaTime);
+
       if(Input.GetKey(KeyCode.A))
         {
-            Debug.Log("Update 함수입니다.");
+            //Vector3.left=(-1,0,0);을 의미한다
+            transform.position += Vector3.left*Time.deltaTime;
         }
-       
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            //Vector3.forward=(0,0,1);을 의미한다
+            transform.position += Vector3.forward * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            //Vector3.forward=(0,0,-1);을 의미한다
+            transform.position += Vector3.back * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            //Vector3.forward=(1,0,0);을 의미한다
+            transform.position += Vector3.right * Time.deltaTime;
+        }
+
     }
 }
