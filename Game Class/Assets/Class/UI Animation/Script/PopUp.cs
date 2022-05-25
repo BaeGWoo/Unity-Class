@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PopUp : MonoBehaviour
 {
-    Animator animator;
     public GameObject window;
+    Animator animator;
+    
 
 
 
@@ -20,11 +21,8 @@ public class PopUp : MonoBehaviour
         //매니메이터 컨트롤러에서 현재 애니메이터 상태의 이름이 "Close"일 때
         if(animator.GetCurrentAnimatorStateInfo(0).IsName("Close"))
         {
-            //현재 애니메이션의 진행도가 1보다 크거나 같다면 UI를 비활성화하도록 설정
-            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
-            {
+            if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1)
                 window.SetActive(false);
-            }
         }
     }
 
