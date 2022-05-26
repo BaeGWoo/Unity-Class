@@ -1,6 +1,5 @@
 sceneSetups:
-- path: C:/Users/User/Desktop/Unity-Class-main/Game Class/Assets/Class/UI Animation/Scene/UI
-    Animation Example.unity
+- path: Assets/Class/Cinemachine/Cinemachine Example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
