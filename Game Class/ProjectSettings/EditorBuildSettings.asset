@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Class/Audio System/Scene/Audio System Example.unity
+    guid: 86dcff0cf902790429927b063ebc9860
+  - enabled: 1
+    path: Assets/Class/Coliision/Scene/Collision Example.unity
+    guid: dc6c68837c6602d46ab5df167f7a684c
+  - enabled: 1
+    path: Assets/Class/Cinemachine/Scene/Cinemachine Example.unity
+    guid: aa04f5ab59d64684e87ac0e2e707ee46
+  - enabled: 1
+    path: Assets/Class/Instantiate/Scene/Instantiate Example.unity
+    guid: 1b8b689ab970a614ea98482cdc4f74dc
+  - enabled: 1
+    path: Assets/Class/Ray Cast/Scene/RayCast Example.unity
+    guid: 2b7c80048845aca469d69cda0bd3730a
   m_configObjects: {}
