@@ -12,14 +12,35 @@ public class Problem : MonoBehaviour
     //형변환(string->int)
     //int.TryParse(variable, out a);
 
-    int[] numberChek = new int[5];
-
+    //int[] numberChek = new int[5];
+   
     private void Update()
     {
-        
+
+       
     }
 
 
+
+    //팩토리얼
+    /*
+
+    string variable = input.text.ToString();
+    int a;
+    int.TryParse(variable, out a);
+
+    answer.text = Factorial(a).ToString();
+    public long Factorial (int n)
+    {
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return 1;
+        else
+            return n * Factorial(n - 1);
+    }
+
+    */
 
     //완벽한 문자열
     /*
