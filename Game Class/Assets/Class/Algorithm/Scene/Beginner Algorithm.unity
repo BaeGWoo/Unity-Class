@@ -439,6 +439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: {fileID: 355918561}
   answer: {fileID: 1128215859}
+  number: 000000002400000002000000260000004a000000
 --- !u!4 &858762843
 Transform:
   m_ObjectHideFlags: 0
